@@ -11,7 +11,7 @@ public class HomePage {
         this.driver = driver;
     }
 
-    By getDescButtonBy() { return By.xpath("(//button/span[contains(text(),'DESCUBRIR')])[1]"); }
+    By getDescButtonBy() { return By.xpath("(//button/span[contains(text(),'DES')])[1]"); }
     By getProfileIconBy() { return By.xpath("//button[@data-auto-id='profile-icon-header']"); }
 
     public void open() {

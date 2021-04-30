@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: atda.Tests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 32.541 s <<< FAILURE! - in atda.Tests
-testAccountRegistration  Time elapsed: 14.783 s  <<< ERROR!
-java.lang.Exception: 
-clickOn method failed after waiting 10 secs.no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'ÚNETE AL CLUB')]"}
-  (Session info: chrome=90.0.4430.93)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.0.0-beta-1', revision: '9c03156c2b'
-System info: host: 'LAPTOP-BFP87UQ0', ip: '192.168.1.66', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_271'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4b4fa0e78790f8884c69f279eb8c4680, findElement {using=xpath, value=//span[contains(text(),'ÚNETE AL CLUB')]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.93, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\afran\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50195}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 4b4fa0e78790f8884c69f279eb8c4680
-	at atda.Tests.testAccountRegistration(Tests.java:46)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.834 s - in atda.Tests
