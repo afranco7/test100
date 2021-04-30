@@ -1,5 +1,6 @@
 package atda;
 
+import atda.PageObjects.*;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -9,9 +10,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class TestVideo
+public class Tests
 {
-    WebDriver driver;
+    private WebDriver driver;
     @BeforeEach
     public void setUp()
     {
@@ -19,7 +20,7 @@ public class TestVideo
     }
 
     @Test
-    public void testVideoPlaying() {
+    public void testVideoPlaying() throws Exception {
             HomePage homePage = new HomePage(driver);
             DescubrirPage descubrirPage = new DescubrirPage(driver);
             homePage.open();
@@ -32,7 +33,7 @@ public class TestVideo
             assertTrue(descubrirPage.isVideoPlaying());
         }
     @Test
-    public void testAccountRegistration() {
+    public void testAccountRegistration() throws Exception {
         HomePage homePage = new HomePage(driver);
         LoginPage loginPage = new LoginPage(driver);
         RegisterPage registerPage = new RegisterPage(driver);
