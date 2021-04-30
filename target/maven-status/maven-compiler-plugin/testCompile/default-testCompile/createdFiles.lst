@@ -1,0 +1,8 @@
+atda\PageObjects\DescubrirPage.class
+atda\PageObjects\HomePage.class
+atda\PageObjects\WelcomePage.class
+atda\Tests.class
+atda\Utils\Util.class
+atda\SeleniumActions\Actions.class
+atda\PageObjects\LoginPage.class
+atda\PageObjects\RegisterPage.class
