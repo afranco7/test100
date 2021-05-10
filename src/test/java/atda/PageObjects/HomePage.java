@@ -19,7 +19,7 @@ public class HomePage {
     }
 
     public boolean isLoaded() {
-        return Actions.waitUntilElementIsDisplayed(driver,getDescButtonBy(),10);
+        return Actions.waitUntilElementIsDisplayed(driver,getProfileIconBy(),10);
     }
 
     public void clickDescubrirMasButton() throws Exception {
