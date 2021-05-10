@@ -11,7 +11,7 @@ public class WelcomePage {
         this.driver = driver;
     }
 
-    By getCloseSessionBy() { return By.xpath("//span[contains(text(),'Cerrar')]"); }
+    By getCloseSessionBy() { return By.xpath("//*[@data-auto-id=\"glass-account-logout\"]"); }
 
     public boolean isLoaded() {
         return Actions.waitUntilElementIsDisplayed(driver,getCloseSessionBy(),10);

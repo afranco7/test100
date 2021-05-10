@@ -11,7 +11,7 @@ public class HomePage {
         this.driver = driver;
     }
 
-    By getDescButtonBy() { return By.xpath("(//button/span[contains(text(),'DES')])[1]"); }
+   // By getDescButtonBy() { return By.xpath("(//button/span[contains(text(),'DES')])[1]"); }
     By getProfileIconBy() { return By.xpath("//button[@data-auto-id='profile-icon-header']"); }
 
     public void open() {
@@ -22,9 +22,9 @@ public class HomePage {
         return Actions.waitUntilElementIsDisplayed(driver,getProfileIconBy(),10);
     }
 
-    public void clickDescubrirMasButton() throws Exception {
+   /*public void clickDescubrirMasButton() throws Exception {
         Actions.clickOn(driver,getDescButtonBy());
-    }
+    }*/
 
     public void clickProfileIcon() throws Exception {
         Actions.clickOn(driver,getProfileIconBy());
