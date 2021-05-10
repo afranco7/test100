@@ -11,7 +11,7 @@ public class LoginPage {
     public LoginPage(WebDriver driver) {
         this.driver = driver;
     }
-    By getJoinClubButtonBy() { return By.xpath("//span[contains(text(),'AL CLUB')]"); }
+    By getJoinClubButtonBy() { return By.xpath("//span[contains(normalize-space(),'AL CLUB')]"); }
     By getLoginEmailBy() { return By.xpath("//*[@id='login-email']"); }
 
     public boolean isLoaded() {
